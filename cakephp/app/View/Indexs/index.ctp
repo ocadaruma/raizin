@@ -22,7 +22,7 @@
 <title>【怒り解析メーカー】RAIJIN</title>
 <section id="main">
 <h2><img src="img/bg_raijin_title.png" height="175" width="363" alt=""></h2>
-<p class="bt-01"><a href="/tops/index/">START</a></p>
+<p class="bt-01"><a href="/index1">START</a></p>
 </section>
 
 <footer></footer>
