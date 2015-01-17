@@ -22,13 +22,17 @@
 <h1><img src="img/bg_raijin_img.png" height="556" width="422" alt=""></h1>
 <title>【怒り解析メーカー】RAIJIN</title>
 <section id="main-question">
-<?php echo $this->Form->create('tops',array('action'=>'index5')); ?>
-<?php echo $this->Form->hidden('q1'); ?>
-<?php echo $this->Form->hidden('q2'); ?>
-<?php echo $this->Form->hidden('q3'); ?>
-<?php echo $this->Form->hidden('q4'); ?>
-<h3>あと一つ言っていいぞ！/h3>
-<p><input type="text" name="data[tops][q5]" id="topsQ5"></p>
+  <?php
+  echo $this->Form->create(null, array(
+  'url' => array('controller' => 'answers', 'action' => 'index')
+  ));
+  ?>
+  <?php echo $this->Form->hidden('tops.q1'); ?>
+ <?php echo $this->Form->hidden('tops.q2'); ?>
+ <?php echo $this->Form->hidden('tops.q3'); ?>
+ <?php echo $this->Form->hidden('tops.q4'); ?>
+<h3>あと一つ言っていいぞ！</h3>
+<p><input type="text" name="data[q5]" id="topsQ5"></p>
 <p class="submit-btn"><input type="submit" value="OK, お前の怒りは分かった。"></p>
 </section>
 
