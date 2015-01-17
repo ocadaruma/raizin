@@ -44,5 +44,7 @@ class IndexsController extends AppController {
  * @throws NotFoundException When the view file could not be found
  *	or MissingViewException in debug mode.
  */
-	public function index() {}
+	public function index() {
+		$this->layout = "";
+	}
 }
