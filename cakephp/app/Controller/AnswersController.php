@@ -45,12 +45,12 @@ class AnswersController extends AppController {
  *	or MissingViewException in debug mode.
  */
 	public function index() {
-		var_dump($this->request->data);
-		$q1 = $this->request->data['answer']['q1'];
-		$q2 = $this->request->data['answer']['q2'];
-		$q3 = $this->request->data['answer']['q3'];
-		$q4 = $this->request->data['answer']['q4'];
-		$q5 = $this->request->data['answer']['q5'];
+		var_dump( $this->request->data);
+		$q1 = $this->request->data['tops']['q1'];
+		$q2 = $this->request->data['tops']['q2'];
+		$q3 = $this->request->data['tops']['q3'];
+		$q4 = $this->request->data['tops']['q4'];
+		$q5 = $this->request->data['q5'];
 		$this->set(compact('q1','q2','q3','q4','q5'));
 	}
 }
