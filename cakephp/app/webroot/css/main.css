@@ -45,6 +45,7 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
+/*  TOP  */
 .clear {
   overflow: hidden;
   *zoom: 1; }
@@ -55,28 +56,53 @@ body {
 #wrapper {
   width: 960px;
   margin: 0 auto;
-  overflow: hidden; }
+  overflow: hidden;
+  background: url("../img/bg_raijin_img02.png") top right no-repeat; }
 
 h1 {
   float: left;
-  width: 422; }
+  width: 422px;
+  padding-left: 30px;
+  padding-top: 10px; }
 
 #main {
-  width: 500;
-  padding-top: 150px;
+  width: 500px;
+  padding-top: 240px;
   text-align: center;
   overflow: hidden; }
 
 .bt-01 {
   margin-top: 30px;
   display: inline-block;
-  padding: 20px 20px;
+  padding: 20px 50px;
   border-radius: 3px;
   background: #000;
   color: #fff;
-  border: 1px solid #000;
+  border: 2px solid #000;
   text-decoration: none;
   font-weight: bold; }
   .bt-01 a {
     color: #fff;
     text-decoration: none; }
+    .bt-01 a:hover {
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+      opacity: 0.5; }
+
+/*  2-4  */
+#question header h2 {
+  float: right;
+  padding-top: 30px;
+  padding-right: 20px; }
+#question header #main-question {
+  width: 500px;
+  padding-top: 140px;
+  text-align: center;
+  overflow: hidden;
+  font-size: 20px; }
+  #question header #main-question h3 {
+    font-weight: bold;
+    padding-bottom: 10px; }
+  #question header #main-question p {
+    padding-bottom: 20px; }
+
+/*  5  */
