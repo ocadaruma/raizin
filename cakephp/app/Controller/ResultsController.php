@@ -46,5 +46,9 @@ class ResultsController extends AppController {
  */
 	public function index() {
 		
+		$result = array('a' => 9, 'b' => 10, 'c' => 1);
+		arsort($result);
+		$this->set('result', key(array_slice($result, 0, 1)));
+		
 	}
 }

@@ -68,7 +68,7 @@ header {
 	font-weight: bold;
 	padding-bottom: 10px;
 		}
-		p {
+	p {
 	padding-bottom: 20px;
 
 		}
@@ -77,4 +77,34 @@ header {
 }
 
 /*  5  */
-
+.bg-result {
+		background:url("../img/bg_raijin_result.png") top right no-repeat;
+		height: 900px;
+		background-position: 105% 15%;
+}
+#result {
+header {
+	h2 {
+		float: right;
+		padding-top: 30px;
+		padding-right: 20px;
+	}
+	#main-question {
+		width:400px;
+		padding-top: 150px;
+		text-align: center;
+		overflow: hidden;
+		font-size: 20px;
+	h3 {
+		font-weight: bold;
+		padding-bottom: 10px;
+	}
+	p {
+		padding-bottom: 10px; 
+		font-size: 35px;
+		color: #ff0600;
+		font-weight: bold;
+	}
+}
+}
+}
