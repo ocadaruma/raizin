@@ -28,7 +28,7 @@
 <?php echo $this->Form->hidden('q3'); ?>
 <h3>俺もムカついてきたぜ！</h3>
 <p><input type="text" name="data[tops][q4]" id="topsQ4"></p>
-<p class="submit-btn"><input type="submit" value="次へ"></p>
+<p class="submit-btn"><input type="submit" value="最後の質問へ"></p>
 </section>
 
 <footer></footer>

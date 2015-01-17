@@ -27,9 +27,9 @@
 <?php echo $this->Form->hidden('q2'); ?>
 <?php echo $this->Form->hidden('q3'); ?>
 <?php echo $this->Form->hidden('q4'); ?>
-<h3>あと一つ言っていいぞ！/h3>
+<h3>あと一つ言っていいぞ！</h3>
 <p><input type="text" name="data[tops][q5]" id="topsQ5"></p>
-<p class="submit-btn"><input type="submit" value="最後の質問へ"></p>
+<p class="submit-btn"><input type="submit" value="OK, お前の怒りは分かった。"></p>
 </section>
 
 <footer></footer>
