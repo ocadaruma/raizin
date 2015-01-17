@@ -24,7 +24,7 @@
 <section id="main-question">
 <?php echo $this->Form->create('tops',array('action'=>'index3')); ?>
 <?php echo $this->Form->hidden('q1'); ?>
-<h3>【質問】ああああああああああああ</h3>
+<h3>まだあるだろ？</h3>
 <p><input type="text" name="data[tops][q2]" id="topsQ2"></p>
 <p class="submit-btn"><input type="submit" value="次へ"></p>
 </section>

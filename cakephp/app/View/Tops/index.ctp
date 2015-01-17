@@ -23,7 +23,7 @@
 <title>【怒り解析メーカー】RAIJIN</title>
 <section id="main-question">
 <?php echo $this->Form->create('tops',array('action'=>'index2')); ?>
-<h3>【質問】ああああああああああああ</h3>
+<h3>怒りをぶちまけろ！</h3>
 <p><input type="text" name="data[tops][q1]" id="topsQ1"></p>
 <p class="submit-btn"><input type="submit" value="次へ"></p>
 </section>
