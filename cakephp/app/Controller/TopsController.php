@@ -45,8 +45,27 @@ class TopsController extends AppController {
  *	or MissingViewException in debug mode.
  */
 	public function index() {}
-	public function index2() {}
-	public function index3() {}
-	public function index4() {}
-	public function index5() {}
+	public function index2() {
+		$q1 = $this->request->data['tops']['q1'];
+    $this->set(compact('q1'));
+	}
+	public function index3() {
+		$q1 = $this->request->data['tops']['q1'];
+		$q2 = $this->request->data['tops']['q2'];
+		$this->set(compact('q1','q2'));
+	}
+	public function index4() {
+		$q1 = $this->request->data['tops']['q1'];
+		$q2 = $this->request->data['tops']['q2'];
+		$q3 = $this->request->data['tops']['q3'];
+		$this->set(compact('q1','q2','q3'));
+	}
+	public function index5() {
+		$q1 = $this->request->data['tops']['q1'];
+		$q2 = $this->request->data['tops']['q2'];
+		$q3 = $this->request->data['tops']['q3'];
+		$q4 = $this->request->data['tops']['q4'];
+		$this->set(compact('q1','q2','q3','q4'));
+
+	}
 }
