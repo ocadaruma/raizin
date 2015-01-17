@@ -28,8 +28,8 @@
 /**
  * ...and connect the rest of 'Pages' controller's URLs.
  */
-Router::connect('/index1', array('controller' => 'tops', 'action' => 'index'));
-Router::connect('/index2', array('controller' => 'tops', 'action' => 'index2'));
+	Router::connect('/index1', array('controller' => 'tops', 'action' => 'index'));
+	Router::connect('/index2', array('controller' => 'tops', 'action' => 'index2'));
 	Router::connect('/index3', array('controller' => 'tops', 'action' => 'index3'));
 	Router::connect('/index4', array('controller' => 'tops', 'action' => 'index4'));
 	Router::connect('/index5', array('controller' => 'tops', 'action' => 'index5'));
