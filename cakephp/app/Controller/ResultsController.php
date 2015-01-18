@@ -48,7 +48,7 @@ class ResultsController extends AppController {
 		
 		$result = array('a' => 9, 'b' => 10, 'c' => 1);
 		arsort($result);
-		$this->set('result', array_shift($this->request->data));
-		
+//		$this->set('result', array_shift($this->request->data));
+		$this->set('result', $this->request->query['a']);
 	}
 }
